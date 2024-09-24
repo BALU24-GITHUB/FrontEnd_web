@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link href="./index.css" rel="stylesheet">
+</head>
+<body>
+    <!--navbar section-->
+    <nav class="navbar">
+        <a href="#Home">Home</a>
+        <a href="#About">About me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">contact form</a>
+    </nav>
+    <!--home section-->
+    <div class="container" id="Home">
+        <div class="imgdiv">
+        <img src="./IMG_20230417_235223.jpg" class="imageone"/>
+        </div>
+        <div>
+            <h1>Hi,I'm Sai Balaji</h1>
+            <p>Frontend Developer | Designer | Tech Enthusiast</p>
+        </div>
+    </div>
+    <!--about section-->
+    <section>
+        <div class="aboutsection" id="About">
+            <h1>~ About me ~</h1>
+            <p>Hello there! I'm a Front-end Developer and aspiring App Developer. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus eius qui earum vitae accusantium animi dicta provident nihil, obcaecati totam eos porro alias, harum esse sit deserunt! Quasi, nobis non.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore dolorum hic provident perspiciatis doloribus illo! Culpa harum sit iste adipisci magnam blanditiis architecto? Cum iste incidunt ratione labore. Ducimus, labore!</p>
+        </div>
+    </section>
+    
+      <!-- Skills Section -->
+      <section id="skills" class="skills-section">
+        <h2>My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">React</div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">Project 1</div>
+            <div class="project-card">Project 2</div>
+            <div class="project-card">Project 3</div>
+        </div>
+    </section>
+
+    <!--contact section-->
+    <section id="contact" class="contact-section">
+        <h1>Contact Me</h1>
+        <form class="contact-form" action="https://formspree.io/f/mblrvbod" method="post">
+         
+         <label for="name">Name:</label>
+         <input type="text" id="name" name="_replyto" required/>
+         <label for="email">Email:</label>
+         <input type="text" id="email" name="_replyto" required/>
+         <label for="message">Message:</label>
+         <input type="text" id="message" row="4" required/>
+         <button type="sumbit">Send Message</button>
+ 
+ 
+        </form>
+     </section>
+</body>
+</html>
+
+
